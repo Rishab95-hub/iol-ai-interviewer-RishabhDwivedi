@@ -1,0 +1,72 @@
+# FastAPI and Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+websockets==12.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+asyncpg==0.29.0
+
+# Redis
+redis==5.0.1
+hiredis==2.3.2
+
+# LLM Integration
+openai==1.10.0
+anthropic==0.18.1
+tiktoken==0.5.2
+
+# Optional: Langchain (may not install on Python 3.14 due to numpy compatibility)
+# Uncomment if you need langchain features:
+# langchain>=0.1.0
+# langchain-openai>=0.0.5
+# numpy>=2.0.0
+
+# Configuration & Environment
+# pydantic and pydantic-settings installed separately in bootstrap script
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# File Processing (for resume handling)
+PyPDF2==3.0.1
+python-docx==1.1.0
+pypandoc==1.12
+
+# Utilities
+httpx==0.26.0
+tenacity==8.2.3
+structlog==24.1.0
+python-json-logger==2.0.7
+aiofiles==23.2.1
+
+# Date/Time
+python-dateutil==2.8.2
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+
+# Frontend UI
+streamlit==1.40.2
+pandas==2.2.3
+
+# Email Validation
+email-validator==2.1.0
+
+# Audio Processing (requires Python 3.12 or lower, uncomment to enable)
+soundfile==0.12.1
+pydub==0.25.1
+scipy>=1.11.0
+numpy>=1.24.0
+openai-whisper==20231117
+ffmpeg-python==0.2.0
+gTTS==2.5.0
+edge-tts==7.0.0
+pyttsx3==2.90
+
+# Development
+black==24.1.1
+ruff==0.1.14
